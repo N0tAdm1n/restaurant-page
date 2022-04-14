@@ -1,1 +1,1 @@
-console.log("hello world!");
+(()=>{"use strict";console.log("hello world!"),(()=>{const e=document.querySelector("#content"),t=document.createElement("div");t.textContent="My Restaurant",e.appendChild(t);const a=document.createElement("div");a.textContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque ut at voluptates quaerat minima! Necessitatibus qui repudiandae, numquam ab nulla porro ullam esse, asperiores iusto quod cupiditate, iure quia.",e.appendChild(a)})()})();
