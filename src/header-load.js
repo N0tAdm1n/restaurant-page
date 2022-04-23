@@ -10,7 +10,7 @@ export const loadHeader = () => {
   header.appendChild(logo);
 
   const navBar = document.createElement("ul");
-  navBar.id = "nav-bar";
+  navBar.id = "navbar";
   const navBarLink = ["home", "menu", "about us"];
   for (let i = 0; i < navBarLink.length; i++) {
     const element = document.createElement("li");
