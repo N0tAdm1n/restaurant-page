@@ -1,13 +1,13 @@
 console.log("hello world!");
 
 import "./style.css";
-import { homePage } from "./page-load";
+import { homePage } from "./home-page";
 import { menuPage } from "./menu-page";
 import { loadHeader } from "./header-load";
 import { clearCurrentTab } from "./functions";
 
 loadHeader();
-pageLoad();
+homePage();
 
 const homeButton = document.querySelector("#home");
 homeButton.addEventListener("click", () => {
