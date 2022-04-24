@@ -10,6 +10,10 @@ loadHeader();
 pageLoad();
 
 const homeButton = document.querySelector("#home");
+homeButton.addEventListener("click", () => {
+  clearCurrentTab();
+  pageLoad();
+});
 
 const menuButton = document.querySelector("#menu");
 menuButton.addEventListener("click", () => {
