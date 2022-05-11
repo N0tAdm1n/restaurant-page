@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 #header {
     height: 60px;
     background-color: aquamarine;
@@ -40,6 +42,53 @@
     border: none;
 }
 
+#detail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+#detail-container > div {
+    border: 2px solid black;
+    width: 300px;
+    font-size: 1.15rem;
+}
+
+#recipes-container {
+    display: grid;
+    /* grid-template-columns: ; */
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
+    width: 70%;
+    margin: 100px auto 0;
+}
+
+.recipe-tile {
+    position: relative;
+    border: 4px solid black;
+    height: 150px;
+}
+
+.recipe-photo {
+    position: absolute;
+}
+
+#Rainbow-Aster-photo {
+    top: -70px;
+    left: 70px;
+}
+
+#Tricolor-Dango-photo {
+    top: -40px;
+    left: -5px;
+}
+
+#Invigorating-Pizza-photo {
+    top: -35px;
+    left: -7px; 
+}
 
 .photo {
     height: 200px;

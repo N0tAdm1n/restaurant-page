@@ -4,6 +4,7 @@ export const homePage = () => {
   const content = document.querySelector("#content");
 
   const detailContainer = document.createElement("div");
+  detailContainer.id = "detail-container";
 
   const restaurantDetailLeft = document.createElement("div");
   restaurantDetailLeft.textContent =
